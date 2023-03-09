@@ -7,7 +7,7 @@ from routers.user import user_router
 
 
 app = FastAPI()
-app.title = "Api Peliculas"
+app.title = "MOVIE API"
 app.version = "0.0.1"
 
 app.add_middleware(ErrorHandler)
